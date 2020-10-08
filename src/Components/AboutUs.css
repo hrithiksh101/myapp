@@ -1,0 +1,128 @@
+.AboutUsBody{
+    background-color: whitesmoke;
+}
+
+.navigation-bar{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+
+
+/* company logo */
+
+.company-logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* upper section consisting of heading and paragraph */
+
+.top-heading{
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top : 10vh ;
+}
+
+.top-paragraph{
+    font-size: 1.5rem; 
+    text-align: center;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+}
+
+/* middle section consisting of cards of photos */
+
+.middle-section{
+    padding-top : 100px ;
+    background-color: #484848;    
+}
+
+/* properties for all the cards contained in row */
+
+.row{
+    display: flex;
+    flex-wrap : wrap ;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box{
+    background-color: white;
+    margin-bottom: 3vh ;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+.box img {
+   
+    height: 250px;
+    width : 350px ;
+    border-radius: 10px;
+
+}
+
+.box p{
+    text-align: center;
+    margin : 0 ;
+    padding : 0 ;
+}
+
+.box h4{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+
+
+/* media queries for the paragraph */
+
+
+@media( max-width : 768px ){
+
+    .top-paragraph{
+        font-size: 1.5rem; 
+        text-align: center;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }      
+
+}
+@media( max-width : 1024px ){
+
+    .top-paragraph{
+        font-size: 1.5rem; 
+        text-align: center;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }      
+
+}
+@media( max-width : 1200px ){
+
+    .top-paragraph{
+        font-size: 1.5rem; 
+        text-align: center;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }      
+
+}
