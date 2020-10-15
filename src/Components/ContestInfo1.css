@@ -1,0 +1,196 @@
+/*  this is the colour used rgb(206,32,41) */
+
+.ContestInfo1 {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+.ContestInfo1-LeftContainer {
+  grid-column: 1 / span 4;
+  background-color: black;
+}
+
+.ContestInfo1-RightContainer {
+  grid-column: span 6;
+}
+.ContestInfo1-RightContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+.ContestInfo1-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ContestInfo1-header i {
+  font-size: 2rem;
+}
+
+.ContestInfo1-middleSection1 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  background-color: whitesmoke;
+  border: 3px solid black;
+}
+
+.ContestInfo1-img {
+  grid-column: span 2;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+.ContestInfo1-content {
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+}
+.ContestInfo1-slider {
+  grid-column: span 6;
+}
+.ContestInfo1-icon {
+  grid-column: span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+}
+
+/* This property will show hand when the + button is hovered over */
+.ContestInfo1-icon:hover {
+  cursor: pointer;
+}
+
+.ContestInfo1-slider {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ContestInfo1-slider input {
+  width: 80%;
+}
+
+/* the reason font size is not working is because it is from the internet */
+
+/* css property for the middle section */
+
+.ContestInfo1-middleSection3 {
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.ContestInfo1-middleSection3-left {
+  grid-column: span 1;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+
+.ContestInfo1-middleSection3-right {
+  border-bottom: blue 7px solid;  
+  grid-column: span 1;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-bottom: 5px;
+
+}
+
+.ContestInfo1-middleSection2 {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ContestInfo1-middleSection2 {
+  border: 3px solid black;
+}
+
+
+
+.PersonCard{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    background-color: whitesmoke;
+    border : 3px solid black ;
+}
+
+.PersonCard-left{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+
+
+}
+
+.PersonCard-left-img {
+
+    grid-column: span 1;
+    justify-self: center;
+    
+}
+
+.PersonCard-left-img img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+
+}
+
+.PersonCard-right{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+
+}
+
+.PersonCard-right-icon{
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PersonCard-right-icon i {
+    text-align: center;
+    
+}
+
+
+
+.PersonCard-right-rank{
+    grid-column: 4/5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PersonCard-right-Change{
+   grid-column: 5/6;
+}
+.PersonCard-right-Change {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.ContestInfo2-rank  {
+  
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  border : 1px solid black ;
+  border-radius: 5px;
+  
+}
+
