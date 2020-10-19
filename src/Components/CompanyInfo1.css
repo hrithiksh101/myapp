@@ -1,0 +1,133 @@
+/*  These are the styles which are common in company info and contest info */
+
+.ContestInfo1 {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.ContestInfo1-RightContainer {
+  grid-column: span 6;
+}
+.ContestInfo1-RightContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+/*  These are the new styles added which are specific to this container */
+
+.CompanyInfo1-LeftContainer {
+  grid-column: span 4;
+  overflow-y: auto;
+}
+
+/*  styles for the image container */
+
+.CompanyInfo1-ImageContainer {
+  position: relative;
+  color: white;
+  height: 40vh;
+}
+
+.CompanyInfo1-ImageContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+.CompanyInfo1-ImageContainer div {
+  position: absolute;
+  font-weight: 600;
+  font-size: 1.4rem;
+  bottom: 8px;
+  left: 16px;
+}
+
+.CompanyInfo1-ImageContainer i {
+    position: absolute;
+    top : 18px ;
+    left : 20px ;
+    cursor : pointer ;
+}
+
+.CompanyInfo1MiddleSection1 {
+  display: flex;
+  justify-content: space-around;
+
+  background-color: #484848;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.CompanyInfo1MiddleSection1 div {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.CompanyInfo1MiddleSection2 {
+  background-color: whitesmoke;
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CompanyInfo1ButtonSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.CompanyInfo1ButtonSection button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding : 10px ;
+}
+
+.CompanyInfo1infoCard {
+  background-color: red;
+}
+
+/* styling common each info card*/
+
+.infoCard {
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: large;
+}
+.infoCard div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoCardSpan1 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.infoCardSpan2 {
+  color: purple;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.CompanyInfo1LowerSection div {
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CompanyInfo1LowerSection div i {
+  color: black;
+  cursor: pointer;
+}
